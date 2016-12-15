@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="5.6444445mm"
+   width="25.400002mm"
+   viewBox="0 0 90.000005 20"
+   id="svg3581"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="led-hor.svg">
+  <defs
+     id="defs3587">
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="110"
+       height="20.00001"
+       patternTransform="translate(25,9.99998)"
+       id="pattern3291">
+      <path
+         id="path3226"
+         d="M 10,1e-5 100,0 l 10,10 -10,10 -90,10e-6 -10,-10 10,-10 z"
+         style="fill:#ff0000"
+         inkscape:connector-curvature="0" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern3291"
+       id="pattern3572"
+       patternTransform="translate(25,9.99998)" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="110"
+       height="20.00001"
+       patternTransform="translate(25,9.99998)"
+       id="pattern3574">
+      <path
+         id="path3576"
+         d="M 10,1e-5 100,0 l 10,10 -10,10 -90,10e-6 -10,-10 10,-10 z"
+         style="fill:#ff0000"
+         inkscape:connector-curvature="0" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1032"
+     inkscape:window-height="751"
+     id="namedview3585"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.1762364"
+     inkscape:cx="36.736801"
+     inkscape:cy="-5.1309319"
+     inkscape:window-x="312"
+     inkscape:window-y="1394"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g3306" />
+  <metadata
+     id="metadata3583">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g3306"
+     transform="translate(-21.665294,-10.106235)">
+    <path
+       style="fill:#000000"
+       inkscape:connector-curvature="0"
+       id="Oscar"
+       d="m 31.665294,10.106235 70.000006,0 10,10 -10,10 -70.000006,0 -10,-10 10,-10 z"
+       inkscape:label="#path3228" />
+  </g>
+</svg>

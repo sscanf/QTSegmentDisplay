@@ -1,0 +1,9 @@
+*.pro.user
+*.pro.user*
+*.o
+moc*
+**/Makefile
+Makefile
+*.moc
+*qrc_*cpp
+doc/*
