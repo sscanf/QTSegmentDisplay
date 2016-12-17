@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>MainForm.ui.qml</file>
+        <file>MainForm.qml</file>
         <file>Lcd.qml</file>
         <file>imagenes/led-hor.svg</file>
         <file>imagenes/led-ver.svg</file>

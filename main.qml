@@ -5,8 +5,8 @@ Window {
     property int counter;
 
     visible: true
-    width: 1600
-    height: 500
+    width: 1680
+    height: 1050
 
     MainForm {
         id: form
@@ -14,7 +14,6 @@ Window {
         mouseArea.onClicked: {
             console.log(qsTr('Clicked on background. Text: "' + textEdit.text + '"'))
         }
-        text: "123456789";
     }
 
     Timer {

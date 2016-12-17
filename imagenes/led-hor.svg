@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    height="5.6444445mm"
-   width="25.400002mm"
-   viewBox="0 0 90.000005 20"
+   width="23.551615mm"
+   viewBox="0 0 83.450603 20"
    id="svg3581"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -58,8 +58,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1032"
-     inkscape:window-height="751"
+     inkscape:window-width="1608"
+     inkscape:window-height="871"
      id="namedview3585"
      showgrid="false"
      fit-margin-top="0"
@@ -67,8 +67,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="7.1762364"
-     inkscape:cx="36.736801"
-     inkscape:cy="-5.1309319"
+     inkscape:cx="45.685989"
+     inkscape:cy="-5.4096296"
      inkscape:window-x="312"
      inkscape:window-y="1394"
      inkscape:window-maximized="0"
@@ -81,18 +81,26 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      id="g3306"
      transform="translate(-21.665294,-10.106235)">
-    <path
-       style="fill:#000000"
-       inkscape:connector-curvature="0"
-       id="Oscar"
-       d="m 31.665294,10.106235 70.000006,0 10,10 -10,10 -70.000006,0 -10,-10 10,-10 z"
-       inkscape:label="#path3228" />
+    <g
+       id="g3148">
+      <path
+         transform="translate(21.665294,10.106235)"
+         id="path3146"
+         d="M 45,0 10,0 0,10 10,20 45,20 45,0 Z"
+         style="fill:#000000"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="Oscar"
+         d="m 60.1159,10.106235 0,20 35,0 10,-10 -10,-10 -35,0 z"
+         style="fill:#000000" />
+    </g>
   </g>
 </svg>
