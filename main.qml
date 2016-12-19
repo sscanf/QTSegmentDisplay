@@ -10,13 +10,17 @@ Window {
 
     MainForm {
         id: form
-        anchors.fill: parent
-        mouseArea.onClicked: {
-            console.log(qsTr('Clicked on background. Text: "' + textEdit.text + '"'))
+        onStartClicked: {
+            timer.start();
+        }
+
+        onStopClicked: {
+            timer.stop();
         }
     }
 
     Timer {
+        id: timer
         running : true
         repeat  : true
         interval: 10

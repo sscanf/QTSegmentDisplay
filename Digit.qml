@@ -37,7 +37,7 @@ Rectangle {
         id: timer
         running : true
         repeat  : true
-        interval: tdelay/10
+        interval: tdelay
         onTriggered: {
             var colors;
             var colorsNew;

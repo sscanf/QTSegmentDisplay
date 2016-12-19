@@ -5,10 +5,11 @@ import QtQuick.Controls 1.5
 Rectangle {
     property alias mouseArea: mouseArea
     property alias text : lcd.text
+    signal startClicked()
+    signal stopClicked()
 
     id : mainWindow
-    width: 1680
-    height: 1050
+    anchors.fill: parent
     color: "#000000"
 
     MouseArea {
@@ -23,9 +24,8 @@ Rectangle {
             Rectangle {
                 id: rectangle1
                 color: "#ff0000"
-                Layout.fillWidth: true
-                Layout.preferredHeight: 63
-                Layout.preferredWidth: 175
+                width: 300
+                height: 100
                 MouseArea {
                     id: mouseArea1
                     anchors.fill: parent
@@ -53,8 +53,8 @@ Rectangle {
             Rectangle {
                 id              : rectangle2
                 color           : "#00ff00"
-                Layout.fillWidth: true
-                Layout.preferredHeight: 63
+                width: 300
+                height: 100
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
@@ -76,14 +76,13 @@ Rectangle {
                         anchors.verticalCenter: parent.verticalCenter
                     }
                 }
-                Layout.preferredWidth: 175
             }
 
             Rectangle {
                 id: rectangle3
                 color: "#0000ff"
-                Layout.fillWidth: true
-                Layout.preferredHeight: 63
+                width: 300
+                height: 100
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
@@ -106,17 +105,17 @@ Rectangle {
                         anchors.verticalCenter: parent.verticalCenter
                     }
                 }
-                Layout.preferredWidth: 175
             }
 
             RowLayout {
+                Layout.minimumWidth: 0
                 Layout.fillHeight: true
                 Layout.fillWidth: true
 
                 Slider {
                     id                   : sliderHorizontal1
                     Layout.preferredWidth: 300
-                    maximumValue         : 1000
+                    maximumValue         : 20
                     minimumValue         : 1
                     value                : 100
                     onValueChanged: {
@@ -137,14 +136,35 @@ Rectangle {
                     font.pixelSize: 29
                 }
             }
-        }
-    }
 
-    Row {
-        anchors.centerIn: mainWindow
-        width: 1259
-        Lcd {
-            id: lcd
+            RowLayout {
+                Layout.fillHeight: false
+                Layout.fillWidth: false
+
+                Button {
+                    id: start
+                    text: qsTr("Start")
+                    checkable: false
+                    Layout.preferredHeight: 48
+                    Layout.preferredWidth: 117
+                    onClicked: {
+                        mainWindow.startClicked()
+                    }
+                }
+
+                Button {
+                    id: stop
+                    text: qsTr("Stop")
+                    Layout.preferredHeight: 48
+                    Layout.preferredWidth: 117
+                    onClicked: {
+                        mainWindow.stopClicked()
+                    }
+                }
+            }
+            Display {
+                id: lcd
+            }
         }
     }
 }
