@@ -1,6 +1,6 @@
 # QTSegmentDisplay
-This is a 7 Segment display using SVG that scale to any size.
-The digits are drawn from two SVG images representing a horizontal led and a vertical led.
+This is a 7 Segment display writen in QML using SVG that scale to any size.
+The digits are drawn from two SVG images representing a horizontal and a vertical led.
 It's possible to change the leds color with a delayed transition.
 
 
